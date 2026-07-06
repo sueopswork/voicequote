@@ -64,3 +64,14 @@ background: #ff3b30;
 color: white;
 }
 
+/* App shell */
+.app-shell {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 16px;
+}
+  
+}
+
