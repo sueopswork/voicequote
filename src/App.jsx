@@ -15,7 +15,7 @@ AlertCircle,
 // Install with: npm install jspdf
 // ─────────────────────────────────────────────────────────────────────────────
 import { jsPDF } from 'jspdf';
-import { runTradeEstimator } from './Engine/RunTradesEstimator.js';
+import { runTradeEstimator } from './Engine/runTradesEstimator.js';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // UK Trades Estimator — pure rule-based engine (no external API required)
