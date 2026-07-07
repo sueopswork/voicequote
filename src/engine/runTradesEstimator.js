@@ -1,4 +1,4 @@
-export function runTradeEstimator(speechText) {
+export function runTradesEstimator(speechText) {
 const lowerText = speechText.toLowerCase();
 
 let client = "Valued Customer";
