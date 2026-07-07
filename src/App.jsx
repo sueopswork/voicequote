@@ -15,7 +15,7 @@ AlertCircle,
 // Install with: npm install jspdf
 // ─────────────────────────────────────────────────────────────────────────────
 import { jsPDF } from 'jspdf';
-import { runTradeEstimator } from './engine/runTradesEstimator.js';
+import { runTradesEstimator } from './engine/runTradesEstimator.js';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // UK Trades Estimator — pure rule-based engine (no external API required)
@@ -138,7 +138,7 @@ const recognitionRef = useRef(null);
 const processText = useCallback((text) => {
 setIsGenerating(true);
 setTimeout(() => {
-setQuote(runTradeEstimator(text));
+setQuote(runTradesEstimator(text));
 setIsGenerating(false);
 }, 900);
 }, []);
@@ -207,7 +207,7 @@ if (!manualText.trim()) return;
 setTranscript(manualText);
 setIsGenerating(true);
 setTimeout(() => {
-setQuote(runTradeEstimator(manualText));
+setQuote(runTradesEstimator(manualText));
 setIsGenerating(false);
 setManualText('');
 }, 700);
