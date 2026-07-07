@@ -357,7 +357,7 @@ window.open(buildWhatsAppURL(quote), '_blank');
 // ─────────────────────────────────────────────────────────────────────────
 return (
 /* Outer page wrapper — dark background, centres the phone card */
-<div className="flex items-center justify-center min-h-screen p-0 md:p-4 bg-[#0b141a]">
+<div className="flex items-center justify-center min-h-screen bg-red-500">
 
 {/* Phone / chat card */}
 <div className="w-full max-w-md bg-[#efeae2] shadow-2xl rounded-none md:rounded-2xl overflow-hidden flex flex-col h-screen md:h-[840px] border border-gray-800 relative">
